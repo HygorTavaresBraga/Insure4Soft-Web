@@ -1862,6 +1862,25 @@ margin-top: 10%;
 	justify-content:center;
 	margin-top: 30px;
 }
+
+.icons-faq{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 15%;
+	text-align: center;
+}
+
+.icons-faq>div>img{
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.icons-faq>div>p{
+	font-weight: bolder;
+}
 /* 
 #check-icon-green{
 	border-radius: 50%;
